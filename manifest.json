@@ -1,0 +1,36 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "nuker",
+      "description": "",
+      "version": [1, 0, 0],
+      "uuid": "434ed4bb-1976-4e70-b8da-ae48721d8245",
+      "min_engine_version": [1, 20, 30]
+    },
+    "modules": [
+      {
+        "type": "data",
+        "description": "",
+        "version": [1, 0, 0],
+        "uuid": "a1995800-7a87-4774-8f4f-c790b9bca23a"
+      },
+      {
+        "type": "script",
+        "description": "",
+        "version": [1, 0, 0],
+        "uuid": "82d7b2af-681a-4673-85f7-bf28fbe38cf7",
+        "language": "javascript",
+        "entry": "scripts/index.js"
+      }
+    ],
+    "dependencies": [
+      {
+        "module_name": "@minecraft/server",
+        "version": "1.8.0-beta"
+      },
+      {
+        "module_name": "@minecraft/server-ui",
+        "version": "1.2.0-beta"
+      }
+    ]
+  }
