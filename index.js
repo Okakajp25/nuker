@@ -3,8 +3,9 @@ import * as MCUI from "@minecraft/server-ui";
 
 world.afterEvents.playerBreakBlock.subscribe(ev => {
     const { itemStackAfterBreak, 
-        itemStackBeforeBreak, 
-        player 
+        player, 
+        brokenBlockPermutation,
+        itemStackBeforeBreak
     } = ev;
     
 })
