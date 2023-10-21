@@ -1,4 +1,4 @@
-import { world, system, player } from "@minecraft/server";
+import { world, system } from "@minecraft/server";
 import * as MCUI from "@minecraft/server-ui";
 
 world.afterEvents.playerBreakBlock.subscribe(ev => {
@@ -7,5 +7,8 @@ world.afterEvents.playerBreakBlock.subscribe(ev => {
         brokenBlockPermutation,
         itemStackBeforeBreak
     } = ev;
-    
+    console.log(player)
+    console.log(itemStackBeforeBreak)
+    console.log(itemStackAfterBreak)
+    console.log(brokenBlockPermutation)
 })
